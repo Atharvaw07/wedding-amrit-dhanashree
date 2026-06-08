@@ -1812,7 +1812,7 @@ rsvpForm.addEventListener('submit', async (e) => {
             data.id_proof_links = 'None';
         }
 
-        const res = await fetch('https://wedding-backend-k67l.onrender.com/api/rsvp', {
+        const res = await fetch('https://wedding-backend-production-54c0.up.railway.app/api/rsvp', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data),
